@@ -6,7 +6,7 @@ for (let i = 0; i < 5; i++) {
     slider.innerHTML += `<li class="cursor-pointer glide__slide slide" style="width: 224px; margin-right: 16px;">
     <div class="flex-shrink-0 relative w-full aspect-w-7 aspect-h-5 h-0 rounded-3xl overflow-hidden group">
         <div class="nc-NcImage " data-nc-id="NcImage">
-            <img src="./flags/${Math.floor(Math.random() * 300)}.png" class="object-cover w-full h-full rounded-2xl" alt="nc-imgs">
+            <img src="./api/flags/${Math.floor(Math.random() * 300)}" class="object-cover w-full h-full rounded-2xl" alt="nc-imgs">
         </div>
         <span class="opacity-0 group-hover:opacity-100 absolute inset-0 bg-black bg-opacity-10 transition-opacity"></span>
     </div>
